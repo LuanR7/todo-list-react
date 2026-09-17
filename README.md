@@ -1,16 +1,24 @@
-# React + Vite
+# 🚀 ToDo List - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Uma aplicação de gerenciamento de tarefas (ToDo List) desenvolvida em React com Vite, com suporte a persistência de dados no `localStorage` e layout moderno baseado no Figma.
 
-Currently, two official plugins are available:
+## 📌 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Criar tarefas:** Adicione novas tarefas à sua lista.
+- **Marcar/Desmarcar como concluída:** Alterne o status das tarefas facilmente.
+- **Excluir tarefas:** Remova itens que não são mais necessários.
+- **Contador de progresso:** Veja o número total de tarefas criadas e quantas já foram concluídas.
+- **Persistência de dados:** Suas tarefas permanecem salvas mesmo após recarregar a página (via `localStorage`).
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React** (Componentização e Hooks: `useState`, `useEffect`)
+- **Vite** (Build tool e servidor de desenvolvimento)
+- **JavaScript (ES6+)**
+- **CSS3** (Estilização pura e responsiva)
 
-## Expanding the Oxlint configuration
+## 💻 Como executar o projeto localmente
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/LuanR7/todo-list-react.git](https://github.com/LuanR7/todo-list-react.git)

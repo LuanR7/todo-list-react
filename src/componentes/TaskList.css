@@ -1,0 +1,59 @@
+.task-list-section {
+  margin-top: 4rem;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.counter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.counter-group.created span:first-child {
+  color: #4EA8DE;
+}
+
+.counter-group.completed span:first-child {
+  color: #8284FA;
+}
+
+.badge {
+  background-color: #333333;
+  color: #D9D9D9;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+}
+
+.empty-state {
+  border-top: 1px solid #333333;
+  border-radius: 8px;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #808080;
+}
+
+.empty-state svg {
+  margin-bottom: 1rem;
+}
+
+.empty-state .bold {
+  font-weight: bold;
+}
+
+.task-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
